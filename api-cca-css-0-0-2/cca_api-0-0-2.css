@@ -587,6 +587,31 @@
     height: 150px;
 }
 
+.i-radius
+{
+    border-radius: 12px;
+}
+
+.i-radius-t
+{
+    border-bottom-right-radius: 12px;
+}
+
+.i-radius-r
+{
+    border-top-right-radius: 12px;
+}
+
+.i-radius-b
+{
+    border-bottom-left-radius: 12px;
+}
+
+.i-radius-l
+{
+    border-top-left-radius: 12px;
+}
+
 .i-border
 {
     border: 1px solid var(--neltral);
