@@ -491,6 +491,11 @@
     font-weight: 500;
 }
 
+.i-font-center
+{
+    text-align:center;
+}
+
 .i-big
 {
     font-weight: 900;
