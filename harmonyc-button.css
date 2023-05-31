@@ -1,0 +1,27 @@
+.f-button-radius-hover-move{
+    font-weight: bold;
+    color: var(--light);
+    border: .5px solid var(--primary);
+    border-radius: 8px;
+    background-color: var(--primary);
+    padding: 6px 24px;
+    cursor: pointer;
+    transition: all .9s ease-in-out;
+}
+
+.f-button-radius-hover-move:hover{
+    background-color: var(--primary-0);
+    animation: f-button-radius-hover-move .9s forwards;
+}
+
+@keyframes f-button-radius-hover-move {
+    0%,100%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(-6px);
+    }
+    50%{
+        transform: translateX(6px);
+    }
+}
